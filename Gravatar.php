@@ -102,7 +102,7 @@ class Gravatar extends Widget
 			$params['d'] = $this->defaultImage;
 		}
 
-		$url .= '?' . http_build_query();
+		$url .= '?' . http_build_query($params);
 		return $url;
 	}
 
