@@ -17,3 +17,16 @@ Get it via [composer](http://getcomposer.org/) by adding the package to your `co
 ```
 
 You may also check the package information on [packagist](https://packagist.org/packages/cebe/yii2-gravatar).
+
+Usage
+-----
+
+```php
+<?php echo \cebe\widgets\Gravatar::widget([
+    'email' => 'mail@cebe.cc',
+    'options' => [
+        'alt' => 'Carsten Brandt'
+    ],
+    'size' => 32
+]); ?>
+```
