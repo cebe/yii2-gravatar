@@ -1,6 +1,6 @@
 <?php
 
-namespace cebe\widgets;
+namespace cebe\gravatar;
 
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
@@ -12,7 +12,7 @@ use yii\helpers\Html;
  * To use this widget, you may insert the following code in a view:
  *
  * ```
- * echo \cebe\widgets\Gravatar::widget([
+ * echo \cebe\gravatar\Gravatar::widget([
  *     'email' => 'mail@cebe.cc',
  *     'size' => 128,
  *     'defaultImage' => 'monsterid',

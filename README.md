@@ -22,7 +22,7 @@ Usage
 -----
 
 ```php
-<?php echo \cebe\widgets\Gravatar::widget([
+<?php echo \cebe\gravatar\Gravatar::widget([
     'email' => 'mail@cebe.cc',
     'options' => [
         'alt' => 'Carsten Brandt'

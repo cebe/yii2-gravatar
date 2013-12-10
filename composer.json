@@ -19,8 +19,8 @@
         "yiisoft/yii2": "*"
     },
 	"autoload": {
-		"psr-0": { "cebe\\widgets\\": "" }
+		"psr-0": { "cebe\\gravatar\\": "" }
 	},
-	"target-dir": "cebe/widgets"
+	"target-dir": "cebe/gravatar"
 }
 
