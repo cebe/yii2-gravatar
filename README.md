@@ -11,7 +11,7 @@ Get it via [composer](http://getcomposer.org/) by adding the package to your `co
 ```json
 {
   "require": {
-    "cebe/yii2-gravatar": "1.0"
+    "cebe/yii2-gravatar": "*"
   }
 }
 ```
