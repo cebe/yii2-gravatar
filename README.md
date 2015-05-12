@@ -16,6 +16,8 @@ Get it via [composer](http://getcomposer.org/) by adding the package to your `co
 }
 ```
 
+Alternatively just run `composer require cebe/yii2-gravatar`.
+
 You may also check the package information on [packagist](https://packagist.org/packages/cebe/yii2-gravatar).
 
 Usage
