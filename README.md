@@ -24,11 +24,11 @@ Usage
 -----
 
 ```php
-<?php echo \cebe\gravatar\Gravatar::widget([
+<?= \cebe\gravatar\Gravatar::widget([
     'email' => 'mail@cebe.cc',
     'options' => [
         'alt' => 'Carsten Brandt'
     ],
     'size' => 32
-]); ?>
+]) ?>
 ```
