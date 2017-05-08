@@ -88,7 +88,7 @@ class Gravatar extends Widget
 	 */
 	public function getImageUrl()
 	{
-		if ($this->secure === null) {
+		if ($this->secure === null && \Yii::$app->request instanceof \yii\web\Request) {
 			$this->secure = \Yii::$app->request->isSecureConnection;
 		}
 		$url = $this->secure ? $this->gravatarUrlSecure : $this->gravatarUrl;
