@@ -13,7 +13,7 @@ use yii\helpers\Html;
  *
  * ```
  * echo \cebe\gravatar\Gravatar::widget([
- *     'email' => 'mail@cebe.cc',
+ *     'email' => Yii::$app->user->getIdentity()->email,
  *     'size' => 128,
  *     'defaultImage' => 'monsterid',
  * //  'secure' => false, // will be autodetected
