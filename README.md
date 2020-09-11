@@ -26,7 +26,7 @@ Usage
 
 ```php
 <?= \cebe\gravatar\Gravatar::widget([
-    'email' => 'mail@cebe.cc',
+    'email' => Yii::$app->user->getIdentity()->email,
     'options' => [
         'alt' => 'Carsten Brandt'
     ],
